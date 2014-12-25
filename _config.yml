@@ -11,7 +11,7 @@ github_username:  josepcasas
 markdown: kramdown
 source: ./_app
 destination: ./html
-keep_files: ./files
+keep_files: [./files]
 
 gps: Barcelona
 music: Sabina
