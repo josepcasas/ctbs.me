@@ -1,0 +1,33 @@
+---
+layout: default
+title: Things
+permalink: /things/
+quote: "There is much pleasure to be gained from useless knowledge"
+author: Bertrand Russell
+menu: yes
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+
+  <p class="quote"> &#10075;&#10075; {{ page.quote }} &#10076;&#10076; </p>
+  <p class="author"> - {{ page.author }} </p></br>
+
+  <article class="post-content">
+ 
+  </article>
+
+  <div class="things-section">
+  <h2 class="things-header"> Personal </h2>
+  <span class="nice-list"> &#10087; <a href="/biblio">Books I read </a></span></br>
+	{% for post in site.categories.things %}
+	 <span class="nice-list"> &#10087; <a href="{{ post.url }}">{{ post.title }} </a></span></br>
+	{% endfor %}
+  </div>
+
+  <h2 class="things-header"> Education </h2>
+  <span class="nice-list"> &#10087; <a href="{{ post.url }}"> A thesis on LVRT testing technology for wind turbines I wrote</a></span></br>
+</div>
