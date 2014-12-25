@@ -10,7 +10,7 @@ github_username:  josepcasas
 # Build settings
 markdown: kramdown
 source: ./_app
-destination: .
+destination: /html
 
 
 gps: Barcelona
