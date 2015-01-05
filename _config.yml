@@ -13,7 +13,8 @@ source: ./_app
 destination: ./html
 keep_files: [files]
 
+
 gps: Barcelona
-music: Sabina
-book: Meditations by Marcus Aurelius
+music: Papa Topo
+book: La Edad de Oro by José Martí
 work: Interviews
