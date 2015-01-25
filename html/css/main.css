@@ -141,6 +141,11 @@ pre {
       padding-right: 15px;
       padding-left: 15px; } }
 
+.biblio-footnote {
+  float: right;
+  text-align: right;
+  font-size: 10px; }
+
 /**
  * Clearfix
  */
