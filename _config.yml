@@ -2,7 +2,7 @@
 title: Home
 email: josep@ctbs.me
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.ctbs.me" # the base hostname & protocol for your site
+url: "http://www.ctbs.me/home" # the base hostname & protocol for your site
 twitter_username: josepctbs
 github_username:  josepcasas
 
