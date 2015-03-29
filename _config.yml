@@ -10,7 +10,7 @@ github_username:  josepcasas
 # Build settings
 markdown: kramdown
 source: ./_app
-destination: ./html
+destination: ./html/home
 keep_files: [files]
 
 
