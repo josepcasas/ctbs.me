@@ -1,4 +1,4 @@
-# Site settings
+	# Site settings
 title: Home
 email: josep@ctbs.me
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -9,7 +9,8 @@ github_username:  josepcasas
 
 # Build settings
 markdown: kramdown
-source: ./_app
+source: /_app
+destination: ./_site
 keep_files: [files]
 
 
