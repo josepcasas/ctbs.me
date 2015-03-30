@@ -1,4 +1,4 @@
-	# Site settings
+# Site settings
 title: Home
 email: josep@ctbs.me
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -9,12 +9,12 @@ github_username:  josepcasas
 
 # Build settings
 markdown: kramdown
-source: /_app
-destination: ./_site
+source: _app
+destination: _site
 keep_files: [files]
 
 
 gps: Barcelona
 music: Papa Topo
-book: La Edad de Oro by José Martí
+book: La Edad de Oro
 work: Interviews
