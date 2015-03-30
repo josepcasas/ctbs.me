@@ -1,7 +1,7 @@
 # Site settings
 title: Home
 email: josep@ctbs.me
-baseurl: "/home/" # the subpath of your site, e.g. /blog/
+baseurl: "/home" # the subpath of your site, e.g. /blog/
 url: "http://www.ctbs.me/" # the base hostname & protocol for your site
 twitter_username: josepctbs
 github_username:  josepcasas
