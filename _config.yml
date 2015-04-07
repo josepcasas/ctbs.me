@@ -9,12 +9,11 @@ github_username:  josepcasas
 
 # Build settings
 markdown: kramdown
-source: 
 destination: _site
 keep_files: [files]
 
 
 gps: Barcelona
-music: Papa Topo
-book: La Edad de Oro
-work: Interviews
+music: Sílvia Perez Cruz
+book: Scarcity
+work: Finding a job
