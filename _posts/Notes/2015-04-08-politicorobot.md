@@ -7,9 +7,9 @@ categories: notes
 permalink: /twitterbot.html
 ---
 
-I have been using my easter holidays to work on a project and improve my programming skills. Python is getting bigger in the data science community (due to libraries such as Pandas or SciPy) and I feel like it is an increasingly important skill to have. I used python a bit for a couple of projects in my undergrad, however I have never been proficient at it (I can get done must stuff I need to). In order to get better at it, I will start coding random projects I find interesting.
+Python is getting bigger in the data science community (due to libraries such as Pandas or SciPy) and I feel like it is an increasingly important skill to have. I used python a bit for a couple of projects in my undergrad, however I have never been proficient at it (I can get done must stuff I need to). In order to get better at it, I will start coding random projects I find interesting.
 
-The first one happened over the last weekend. I saw that [Walter Hickney](https://twitter.com/walthickey) from [FiveThirtyEight](http://fivethirtyeight.com/) had developed a [twitter bot](https://twitter.com/538bot) that mimics someone's twitter updates using Markov chains. I though it was a pretty cool thing and it did not sound too complicated (something I could get done in a day). I was particularly interested in learning how to work with text, implement Markov chains and use the twitter API. Long story short, by Sunday night my bot was alive on Twitter.
+The first one happened over the last weekend. I saw that [Walter Hickney](https://twitter.com/walthickey) from [FiveThirtyEight](http://fivethirtyeight.com/) had developed a [twitter bot](https://twitter.com/538bot) that mimics someone's twitter updates using Markov chains. I though it was a pretty cool thing and it did not sound too complicated (i.e. something I could get done in a day). I was particularly interested in learning how to work with text, implement Markov chains and use the twitter API. Long story short, by Sunday night my bot was alive on Twitter.
 
 </br>
 ## How does it work?
