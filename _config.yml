@@ -8,7 +8,9 @@ github_username:  josepcasas
 
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
 destination: _site
 keep_files: [files]
 
