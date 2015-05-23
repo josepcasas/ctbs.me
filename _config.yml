@@ -15,7 +15,9 @@ destination: _site
 keep_files: [files]
 
 
-gps: Barcelona
-music: Sílvia Perez Cruz
-book: Scarcity
-work: Finding a job
+gps: barcelona
+music: Joe Hisaishi Meets Kitano
+book: ethics by Aristotle
+work: finding a job/internship
+
+
