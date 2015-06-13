@@ -237,3 +237,26 @@ hr.style {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+
+/**
+ * sidebar
+ */
+.blog-sidebar {
+    background-color: yellow;
+    postion: absolute;
+    width: 10%;
+    margin-top: 100px;
+    margin-right: 70%;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}*10));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}*10));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}

@@ -14,7 +14,7 @@
     font-size: 40px;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
+    margin-bottom: $spacing-unit;
     float: left;
 
     &,
@@ -75,7 +75,7 @@
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit;
 }
 
 .contact-list,
@@ -194,7 +194,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding-top: $spacing-unit/2;
 }
 
 .page-heading {
@@ -250,6 +250,11 @@
 
 .nice-list a:hover{
         color: white;
+}
+
+.post-text{
+        font-family: 'Libre Baskerville', serif;
+        text-align: justify;
 }
 
 .things-header {
@@ -340,3 +345,4 @@
     font-family: 'Libre Baskerville', serif;
     color: $grey-color-dark;
 }
+
