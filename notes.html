@@ -1,28 +1,37 @@
 ---
-layout: notes
-title: notes
+layout: default
+title: Notes
 permalink: /notes/
 menu: yes
 ---
-<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Notes</h1>
+    <h1 class="post-title">Categories </h1>
   </header>
 
+<div class="post">
+	{% capture tags %}
+  	{% for tag in site.tags %}
+		{{ tag[0] }}  
+  	{% endfor %}
+	{% endcapture %}
+	{% assign sortedtags = tags | split:' ' | sort %}
 
-  <article class="bio">
+{% for tag in sortedtags %}
+     <p class="nice-list"> {{ tag }}</p>
+  {% for post in site.tags[tag] %}
+  	<span class="bio"><a href="{{ post.url | prepend: site.baseurl }}"> &#10087; {{ post.title }}</a></span> {{ post.date | date: "%A, %d %B %Y" }}</br>
+  {% endfor %}
+</br></br>
+{% endfor %}
 
 
-  </article>
+</br><hr class="style"></br>
+</div>
 
+<p class="nice-list"> All </p>
+<div class="post">
 	{% for post in site.categories.notes %}
-	<span class="nice-list"><a href="{{ post.url | prepend: site.baseurl }}"> &#10087; {{ post.title }}</a></span></br>
-	{{ post.date | date: "%A, %d %B %Y" }}</br></br>
-	 
-	<div class="post-text">{{ post.content }}</div></br>
-	<hr class="style">
-	</br></br>
+	<span class="bio"><a href="{{ post.url | prepend: site.baseurl }}"> &#10087; {{ post.title }}</a></span> {{ post.date | date: "%A, %d %B %Y" }}</br>
 	{% endfor %}
-
 </div>

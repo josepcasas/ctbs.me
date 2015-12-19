@@ -15,16 +15,79 @@ permalink: /world/
 
     <div class="page-content">
     <div class="wrapper-biblio">
-
-	<div id="container" style="position: relative; width: 500px; height: 300px;"></div>
+    </br>
+	<div id="container" style="position: relative; width: 1700px; height: 800px;"></div>
 	<script>
-	    var map = new Datamap({element: document.getElementById('container')});
+	    var map = new Datamap({
+	    	element: document.getElementById('container'),
+
+	    	geographyConfig: {
+	    		highlightFillColor: '#EDC951',
+	    		highlightBorderColor: '#FFFFFF',
+	    		highlightBorderWidth: 2
+	    	},
+
+			fills: {
+				lived: '#FF6B6B',
+				visited: '#45ADA8',
+				defaultFill: '#556270',
+			},
+
+			data: {
+			    ESP: { fillKey: "lived" },
+			    FRA: { fillKey: "lived" },
+			    AND: { fillKey: "visited" },
+			    AUS: { fillKey: "visited" },
+			    AUT: { fillKey: "visited" },
+			    BIH: { fillKey: "visited" },
+			    KHM: { fillKey: "visited" },
+			    CHN: { fillKey: "lived" },
+			    HRV: { fillKey: "visited" },
+			    CUB: { fillKey: "visited" },
+			    DNK: { fillKey: "visited" },
+			    EST: { fillKey: "visited" },
+			    DEU: { fillKey: "visited" },
+			    GRC: { fillKey: "visited" },
+			    VAT: { fillKey: "visited" },
+			    HKG: { fillKey: "visited" },
+			    IRL: { fillKey: "lived" },
+			    ITA: { fillKey: "visited" },
+			    PRK: { fillKey: "visited" },
+			    LIE: { fillKey: "visited" },
+			    MYS: { fillKey: "visited" },
+			    MUS: { fillKey: "visited" },
+			    MEX: { fillKey: "visited" },
+			    MCO: { fillKey: "visited" },
+			    NPL: { fillKey: "visited" },
+			    NOR: { fillKey: "visited" },
+			    PER: { fillKey: "visited" },
+			    PHL: { fillKey: "visited" },
+			    PRT: { fillKey: "visited" },
+			    QAT: { fillKey: "visited" },
+			    RUS: { fillKey: "visited" },
+			    SGP: { fillKey: "visited" },
+			    SWE: { fillKey: "visited" },
+			    TWN: { fillKey: "visited" },
+			    THA: { fillKey: "visited" },
+			    TUR: { fillKey: "visited" },
+			    GBR: { fillKey: "lived" },
+			    USA: { fillKey: "visited" },
+			    VNM: { fillKey: "visited" },
+			    ALA: { fillKey: "visited" },
+			    FIN: { fillKey: "visited" },
+			    CHE: { fillKey: "visited" },
+
+			  },
+	    });
+
 	</script>
     </div>
     </div>
 
     {% include footer.html %}
 
+
+  
 
   </body>
 

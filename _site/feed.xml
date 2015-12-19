@@ -5,9 +5,29 @@
     <description></description>
     <link>http://www.ctbs.me//home/</link>
     <atom:link href="http://www.ctbs.me//home/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Jun 2015 17:56:21 +0200</pubDate>
-    <lastBuildDate>Sat, 13 Jun 2015 17:56:21 +0200</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sat, 19 Dec 2015 23:17:47 +0100</pubDate>
+    <lastBuildDate>Sat, 19 Dec 2015 23:17:47 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Bienvenue à Paris</title>
+        <description>It has been 50 days since I arrived in Paris. I have been to distracted to write anything.
+
+
+Impressions on Paris
+
+:“If you are lucky enough to have lived in Paris as a young man, then wherever you go for the rest of your life, it stays with you, for Paris is a moveable feast.”:
+― Ernest Hemingway, A Moveable Feast</description>
+        <pubDate>Mon, 17 Aug 2015 17:24:00 +0200</pubDate>
+        <link>http://www.ctbs.me//home/paris.html</link>
+        <guid isPermaLink="true">http://www.ctbs.me//home/paris.html</guid>
+        
+        <category>life</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>101 goals in 1001</title>
@@ -103,6 +123,7 @@ I particularly like the idea of setting 101 goals in 1001 days (almost 3 years).
 &lt;li&gt;Visit a new place (restaurant/bar/cafe) every month in whatever place I happen to be.&lt;/li&gt;
 &lt;li&gt;Go to 10 meetup.com events. &lt;/li&gt;
 &lt;li&gt;Let someone surf my couch through couchsurfing. &lt;/li&gt;
+&lt;li&gt;Visit 20 museums&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/br&gt;
 
@@ -168,6 +189,8 @@ The main sources of inspiration for this list have been (a part from myself):&lt
         <pubDate>Sat, 23 May 2015 17:24:00 +0200</pubDate>
         <link>http://www.ctbs.me//home/goals.html</link>
         <guid isPermaLink="true">http://www.ctbs.me//home/goals.html</guid>
+        
+        <category>life</category>
         
         
         <category>notes</category>
